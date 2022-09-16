@@ -47,4 +47,4 @@ public static ArrayList<romawi> sortArr(String[] arr, int n)
 	}
 ```
 
-- 
+- Simplify
