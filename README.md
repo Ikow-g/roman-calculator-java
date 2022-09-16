@@ -22,14 +22,17 @@ static int nilaiRomawi(char r)
 ### Important Steps
 - Check any substractive notation, if any change it into additive
 
+For example:
 ```
-for example: IV replace it with IIII 
+IV replace it with IIII
+IX replace it with VIIII
+and so on until CM replace with DCCCC
 ```
 
 - Combine both inputs and sort them into descending order
 
-```js
 Sorting method:
+```js
 public static ArrayList<romawi> sortArr(String[] arr, int n)
 	{
 	    ArrayList<romawi> array = new ArrayList<romawi>();
