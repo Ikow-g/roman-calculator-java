@@ -26,3 +26,19 @@ static int nilaiRomawi(char r)
 for example: IV replace it with IIII 
 ```
 
+- Combine both inputs and sort them into descending order
+
+```js
+Sorting method:
+public static ArrayList<romawi> sortArr(String[] arr, int n)
+	{
+	    ArrayList<romawi> array = new ArrayList<romawi>();
+	    for(int i = 0; i < n; i++)
+	    {
+	    	array.add(new romawi(arr[i],memberiValue(arr[i])));
+	    }
+	    Compare obj = new Compare();
+	    obj.compare(array);
+	    return array;
+	}
+```
