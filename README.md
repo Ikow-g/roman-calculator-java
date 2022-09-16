@@ -22,7 +22,7 @@ static int nilaiRomawi(char r)
 ### Important Steps
 - Check any substractive notation, if any change it into additive
 
-```js
-for example: IV to IIII 
+```
+for example: IV replace it with IIII 
 ```
 
