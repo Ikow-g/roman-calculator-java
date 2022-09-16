@@ -20,6 +20,7 @@ static int nilaiRomawi(char r)
 ```
 
 ### Important Steps
+:warning: Every result from each steps must be saved for the explanation part after the final result.
 - Check any substractive notation, if any change it into additive
 
 For example:
@@ -45,3 +46,5 @@ public static ArrayList<romawi> sortArr(String[] arr, int n)
 	    return array;
 	}
 ```
+
+- 
