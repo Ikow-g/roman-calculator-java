@@ -48,3 +48,9 @@ public static ArrayList<romawi> sortArr(String[] arr, int n)
 ```
 
 - Simplify
+
+The basic is to change every possible notation.
+For example:
+```js
+
+```
