@@ -52,5 +52,18 @@ public static ArrayList<romawi> sortArr(String[] arr, int n)
 The basic is to change every possible notation.
 For example:
 ```js
-
+IIIII replace it with V
+XXXXX replace it with L
+```
+Also in this process, you have to save each changes into array so that we can display them in the steps part.
+```js
+if(temp2.contains("IIIII")){
+	from[indexsimp]="IIIII";//save before change
+	to[indexsimp]="V";//save target change
+	temp2 = simplify(temp2);
+	get[indexsimp] = temp2;//save results
+	indexsimp++;det4++;
+	temp2 = turn(temp2);
+	continue;
+}
 ```
