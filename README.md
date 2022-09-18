@@ -3,7 +3,7 @@ Roman calculator using java with steps
 
 ## Usage/Examples
 ### Roman Value
-U need to initialize value for Roman numbers.
+You need to initialize value for Roman numbers.
 ```javascript
 static int nilaiRomawi(char r)
 	{
